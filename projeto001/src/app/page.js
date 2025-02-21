@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/SideBar";
 import MainContent from "../components/MainContent";
 import Footer from "../components/Footer";
+import CardUser from "@/components/CardUser";
 
 export default function home(){
 
@@ -37,6 +38,7 @@ export default function home(){
 
         {/* Área Principal */}
         <MainContent />
+        
       </div>
 
       {/* Footer */}
