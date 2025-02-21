@@ -8,6 +8,7 @@ const Footer = () => {
           padding: '20px',
           textAlign: 'center',
           marginTop: 'auto',
+          color: 'black'
         }}
       >
         Footer Padrão

@@ -1,6 +1,10 @@
 const logo = () => {
   return (
-    <h1>Logo</h1>
+    <h1
+      style={{
+        color: "black",
+        textAlign: "center"}}
+    >Logo</h1>
   );
 }
 

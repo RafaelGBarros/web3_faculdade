@@ -1,11 +1,13 @@
-import Header from "./Header";
-import Sidebar from "../components/SideBar";
-import MainContent from "../components/MainContent";
-import Footer from "../components/Footer";
+import Header from "@/components/Header";
+import Sidebar from "@/components/SideBar";
+import MainContent from "@/components/MainContent";
+import Footer from "@/components/Footer";
 
-const Layout = () => {
-  return (
-    <div
+export default function home(){
+
+  return(
+    <main>
+      <div
       style={{
         fontFamily: 'Arial, sans-serif',
         backgroundColor: '#f4f4f4',
@@ -40,10 +42,6 @@ const Layout = () => {
       {/* Footer */}
       <Footer />
     </div>
-  );
-};
-
-export default Layout;
-
-
-  
+    </main> 
+  )  
+}

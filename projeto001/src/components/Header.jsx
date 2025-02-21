@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import Link  from "next/link";
 
 const Header = () => {
   return (
@@ -35,11 +36,30 @@ const Header = () => {
           borderRadius: '10px',
           height: '50px',
           display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center'
+          justifyContent: 'space-around',
+          alignItems: 'right',
         }}
       >
-        Header
+        <Link
+          href="/contato"
+          style={{
+            textDecoration: 'none',
+            color: 'black',
+          }}
+        >
+          Contatos
+        </Link>
+
+        <Link
+          href="/contato"
+          style={{
+            textDecoration: 'none',
+            color: 'black',
+          }}
+        >
+          Sobre nós
+        </Link>
+
       </div>
     </header>
   );
